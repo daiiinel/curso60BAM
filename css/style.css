@@ -1,64 +1,66 @@
-*{ 
+*{ /* se aplica a todos los elementos en la página */
     padding: 0;
     margin: 0;
-}
+}/* se establece un margen y relleno de 0 para eliminar 
+el espacio adicional alrededor de los elementos*/
+
 body{
     background: linear-gradient(to right, #6b1269, rgb(5,21,145));
-}
+}/*se establece un fondo degradado en el cuerpo de la página de izquierda a derecha.*/
 .logou{
-    width: 50px;
-    display: inline-block;
-    margin: 3px 3px 3px 3px;
-    vertical-align: middle;
+    width: 50px; /*se establece un ancho de 50px*/
+    display: inline-block; /*se muestra como un elemento en linea*/
+    margin: 3px 3px 3px 3px; /*se establecen sus margenes de 3px*/
+    vertical-align: middle; /*se alinea verticalmente en el medio*/
 } 
-header{
-    background: linear-gradient(to right, #6b1269, rgb(5, 21, 145));
-    height: 135px;
-    padding: 10px 15px 15px 25px;
+header{/*encabezado*/
+    background: linear-gradient(to right, #6b1269, rgb(5, 21, 145));/*fondo degradado*/
+    height: 135px; /*altura*/
+    padding: 10px 15px 15px 25px; /*relleno de bordes*/
 }
-header a{
-    text-decoration: none;
-    color: rgba(253, 205, 237, 0.703);
-    transition: 0.8s;
-    font-family: italic;
-    line-height: 1.5;
+header a{/*enlaces del encabezado*/
+    text-decoration: none;/*elimina la decoracion del texto*/
+    color: rgba(253, 205, 237, 0.703);/*establece un color al texto*/
+    transition: 0.8s; /*una transicion*/
+    font-family: italic;/*una fuente*/
+    line-height: 1.5;/*espacio entre lineas*/
 }
-header nav ul{
-    list-style: none;
-    font-size: large;
+header nav ul{/*listas no ordenadas dentro del encabezado*/
+    list-style: none;/*elimina los marcadores de una lista*/
+    font-size: large;/*tamaño de fuente grande*/
 }
 h1{
-    font-weight: 500;
-    text-align: center;
-    color: #f0bdf0;
-    overflow: hidden;
+    font-weight: 500;/*peso de la fuente*/
+    text-align: center;/*alineacion del texto*/
+    color: #f0bdf0;/*color del texto*/
+    overflow: hidden;/*oculta el desbordamiento de contenido*/
 }
-p{
-    font-size: large;
-    font-weight: 50;
-    color: #f0bdf0;
-    text-align: justify;
-    margin: 15px 15px 15px 15px;
+p{/*parrafos*/
+    font-size: large; /*tamaño de fuente*/
+    font-weight: 50; /*peso de fuente*/
+    color: #f0bdf0;/*color de fuente*/
+    text-align: justify;/*alineacion del texto*/
+    margin: 15px 15px 15px 15px;/*margenes*/
 }
 .titulos, label{
-    color: #c863c8;
-    text-decoration: underline;
-    font-size: x-large;
-    margin: 25px 25px 25px 25px;
-    font-variant: inherit;
-    font-weight: bold;
+    color: #c863c8;/*color del texto*/
+    text-decoration: underline;/*subrayado del texto*/
+    font-size: x-large;/*tamaño del texto*/
+    margin: 25px 25px 25px 25px;/*margenes*/
+    font-variant: inherit;/*variables de la fuente*/
+    font-weight: bold;/*peso de la fuente*/
 }
 
-.producto img{
-    width: 250px;
-    display: inline-block;
-    margin: 5px 5px 5px 5px;
-    border-radius: 50px;
+.producto img{ /*imagenes dentro de elementos con la clase ".producto"*/
+    width: 250px;/*ancho de la imagen*/
+    display: inline-block;/*elementos en linea*/
+    margin: 5px 5px 5px 5px;/*margenes*/
+    border-radius: 50px;/*borde redondeado*/
 }
-button, input{
-    margin: 2px 2px 2px 50px;
-    background: linear-gradient(to right, #1f2188, #b00000);
-    color: #f0bdf0;
-    border-radius:20px; 
-    padding: 7px 7px 7px 7px;
+button, input{ /*botones y elementos de entrada*/
+    margin: 2px 2px 2px 50px;/*margenes*/
+    background: linear-gradient(to right, #1f2188, #b00000);/*fondo degradado*/
+    color: #f0bdf0;/*color de texto*/
+    border-radius:20px; /*bordes redondeados*/
+    padding: 7px 7px 7px 7px;/*relleno*/
 }

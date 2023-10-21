@@ -1,52 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--declaracion del tipo de documento-->
+<html lang="en"><!--inicio del html, especificando el idioma-->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mar Indumentaria</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--configuración de la vista en dispositivos móviles-->
+        <title>Mar Indumentaria</title><!--título de la página que se muestra en la pestaña del navegador-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"><!--vinculacion del archivo de estilos css-->
     </head>
     <body>
         <title>Mar de Ideas</title>
         <header>
             <div>
-                <img class="logou" src="img/rosalog.png" alt="logo">
-                <a href="/index.html">Mar de Ideas</a> 
+                <img class="logou" src="img/rosalog.png" alt="logo"><!--inclusión de una imagen con una clase "logou"-->
+                <a href="/index.html">Mar de Ideas</a> <!--enlace a la página de inicio-->
             </div>
-        <nav> <br>
+        <nav> <!--barra de navegación-->
+            <br><!--salto de línea-->
             <ul>
-                <li><a href="/form/registro.html">Crea tu cuenta</a></li>     
-                <li><a href="/form/ingreso.html">Ingresa</a></li> 
+                <li><a href="/form/registro.html">Crea tu cuenta</a></li> <!--enlace a la página de registro-->  
+                <li><a href="/form/ingreso.html">Ingresa</a></li> <!--enlace a la página de ingreso-->
             </ul>
-            <h1><span>TU MEJOR OPCIÓN EN INDUMENTARIA</span></h1>
+            <h1><span>TU MEJOR OPCIÓN EN INDUMENTARIA</span></h1><!--título principal-->
         </nav>
         </header>
-        <main>
-           <br>
+        <main> <!--contenido principal de la página-->
+           <br><!--otro salto de línea-->
             <p>Somos Mar de Ideas, una empresa familiar dedicada 
                 al diseño, a la innovación y al desarrollo de 
                 vestidos de alta calidad.
-            </p> <br>
+            </p> <!--párrafo de texto descriptivo-->
+            <br><!--otro salto de línia-->
+            <section class="producto"> <!--sección del producto-->
+                <p class="titulos">Vestido de noche verde</p> <!--titulo del producto-->
+                <img src="/img/vestidodenoche.webp" alt="Producto 1"><!--imagen del producto-->
+                <p>Descripción del producto 1.</p><!--descripcion del producto-->
+                <p>Precio: $250.000,00 ARS</p><!--precio del producto-->
+                <button>Agregar al carrito</button><!--boton para agregar al carrito-->
+            </section><br><!--salto de linea-->
 
-            <section class="producto">
-                <p class="titulos">Vestido de noche verde</p>
-                <img src="/img/vestidodenoche.webp" alt="Producto 1">
-                <p>Descripción del producto 1.</p>
-                <p>Precio: $250.000,00 ARS</p>
-                <button>Agregar al carrito</button>
-            </section><br>
-
-            <section class="producto">
-                <p class="titulos">Vestido de noche negro</p>
-                <img src="/img/vestidonegro.jpeg" alt="Producto 2">
-                <p>Descripción del producto 2.</p>
-                <p>Precio: $375.000,00 ARS</p>
-                <button>Agregar al carrito</button>
+            <section class="producto"><!--segunda seccion del producto-->
+                <p class="titulos">Vestido de noche negro</p><!--titulo del producto-->
+                <img src="/img/vestidonegro.jpeg" alt="Producto 2"><!--imagen del producto-->
+                <p>Descripción del producto 2.</p><!--descripcion del producto-->
+                <p>Precio: $375.000,00 ARS</p><!--precio del producto-->
+                <button>Agregar al carrito</button><!--botón para agregar el producto al carrito-->
             </section>
 
         </main>
-        <footer>
-            <p>&copy; 2023 Mar de Ideas Indumentaria</p>
+        <footer> <!--pie de página-->
+            <p>&copy; 2023 Mar de Ideas Indumentaria</p> <!--aviso de derechos de autor-->
         </footer>
     </body>
     </html>
